@@ -11,12 +11,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="nuvoleo3.svg"
+   sodipodi:docname="nuvoleo4.svg"
    inkscape:version="0.48.4 r9939"
    version="1.1"
    id="svg4329"
-   height="592.61432"
-   width="711.88757">
+   height="2430.8501"
+   width="3765.1699">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="211.81153"
-     inkscape:cy="-110.37016"
+     inkscape:cx="2195.171"
+     inkscape:cy="1193.2595"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -256,9 +256,9 @@
          id="feGaussianBlur4446" />
       <feSpecularLighting
          specularExponent="45"
-         specularConstant="2.2"
+         specularConstant="2.20000005"
          surfaceScale="1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          result="result1"
          in="result9"
          id="feSpecularLighting4448">
@@ -281,7 +281,9 @@
          result="result4"
          in="result2"
          in2="fbSourceGraphic"
-         id="feComposite4454" />
+         id="feComposite4454"
+         k1="0"
+         k4="0" />
       <feBlend
          mode="multiply"
          in="result4"
@@ -302,7 +304,7 @@
       <feSpecularLighting
          surfaceScale="5"
          specularConstant="2"
-         specularExponent="18.1"
+         specularExponent="18.10000038"
          result="result0"
          id="feSpecularLighting4478">
         <feDistantLight
@@ -372,7 +374,7 @@
          result="result5"
          surfaceScale="4"
          diffuseConstant="1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          id="feDiffuseLighting4532">
         <feDistantLight
            azimuth="235"
@@ -385,7 +387,10 @@
          in="result5"
          k1="1.4"
          in2="SourceGraphic"
-         id="feComposite4536" />
+         id="feComposite4536"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feGaussianBlur
          stdDeviation="6"
          in="fbSourceGraphic"
@@ -394,7 +399,7 @@
       <feSpecularLighting
          in="result0"
          result="result1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          surfaceScale="4"
          specularConstant="1"
          specularExponent="25"
@@ -411,7 +416,9 @@
          k2="1"
          k3="1"
          in2="result1"
-         id="feComposite4544" />
+         id="feComposite4544"
+         k1="0"
+         k4="0" />
       <feComposite
          in="result4"
          result="result2"
@@ -461,7 +468,7 @@
          specularExponent="35"
          result="result5"
          in="result3"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          id="feSpecularLighting4584">
         <feDistantLight
            azimuth="235"
@@ -475,7 +482,9 @@
          k3="0.7"
          in="SourceGraphic"
          in2="result5"
-         id="feComposite4588" />
+         id="feComposite4588"
+         k1="0"
+         k4="0" />
       <feComposite
          operator="in"
          in="result7"
@@ -510,9 +519,9 @@
          id="feGaussianBlur4600" />
       <feSpecularLighting
          specularExponent="45"
-         specularConstant="2.2"
+         specularConstant="2.20000005"
          surfaceScale="1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          result="result1"
          in="result9"
          id="feSpecularLighting4602">
@@ -535,7 +544,9 @@
          result="result4"
          in="result2"
          in2="fbSourceGraphic"
-         id="feComposite4608" />
+         id="feComposite4608"
+         k1="0"
+         k4="0" />
       <feBlend
          mode="multiply"
          in="result4"
@@ -544,9 +555,9 @@
     </filter>
     <filter
        color-interpolation-filters="sRGB"
-       x="-0.15"
+       x="-0.15000001"
        width="1.3"
-       y="-0.15"
+       y="-0.15000001"
        height="1.3"
        inkscape:menu-tooltip="Glossy bevel with blurred edges"
        inkscape:menu="Bevels"
@@ -558,7 +569,10 @@
          result="fbSourceGraphic"
          operator="arithmetic"
          in2="SourceGraphic"
-         id="feComposite4640" />
+         id="feComposite4640"
+         k1="0"
+         k3="0"
+         k4="0" />
       <feGaussianBlur
          stdDeviation="6"
          in="fbSourceGraphic"
@@ -567,7 +581,7 @@
       <feSpecularLighting
          in="result0"
          result="result1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          surfaceScale="6"
          specularConstant="1"
          specularExponent="25"
@@ -584,7 +598,9 @@
          k2="1"
          k3="1.5"
          in2="result1"
-         id="feComposite4648" />
+         id="feComposite4648"
+         k1="0"
+         k4="0" />
       <feComposite
          in="result4"
          result="result2"
@@ -594,9 +610,9 @@
     </filter>
     <filter
        color-interpolation-filters="sRGB"
-       x="-0.15"
+       x="-0.15000001"
        width="1.3"
-       y="-0.15"
+       y="-0.15000001"
        height="1.3"
        inkscape:menu-tooltip="Matte bevel with blurred edges"
        inkscape:menu="Bevels"
@@ -608,7 +624,10 @@
          result="fbSourceGraphic"
          operator="arithmetic"
          in2="SourceGraphic"
-         id="feComposite4654" />
+         id="feComposite4654"
+         k1="0"
+         k3="0"
+         k4="0" />
       <feGaussianBlur
          stdDeviation="6"
          in="fbSourceGraphic"
@@ -617,9 +636,9 @@
       <feSpecularLighting
          in="result0"
          result="result1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          surfaceScale="6"
-         specularConstant="0.9"
+         specularConstant="0.89999998"
          specularExponent="15"
          id="feSpecularLighting4658">
         <feDistantLight
@@ -635,7 +654,8 @@
          k2="0.7"
          k3="0.1"
          in2="result0"
-         id="feComposite4662" />
+         id="feComposite4662"
+         k4="0" />
       <feComposite
          in="result4"
          result="result2"
@@ -711,7 +731,9 @@
          k2="1"
          operator="arithmetic"
          in2="result93"
-         id="feComposite4796" />
+         id="feComposite4796"
+         k1="0"
+         k4="0" />
       <feComposite
          result="result95"
          in="result5"
@@ -1242,7 +1264,7 @@
     </filter>
     <filter
        color-interpolation-filters="sRGB"
-       x="-0.14999999999999999"
+       x="-0.15000001"
        width="1.3"
        y="-0.15000001"
        height="1.3"
@@ -1551,9 +1573,9 @@
          id="feSpecularLighting8615"
          in="fbSourceGraphic"
          result="result1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          surfaceScale="2"
-         specularConstant="2.2"
+         specularConstant="2.20000005"
          specularExponent="55">
         <fePointLight
            id="fePointLight8617"
@@ -1574,11 +1596,12 @@
          result="result4"
          operator="arithmetic"
          k2="2"
-         k3="1" />
+         k3="1"
+         k1="0"
+         k4="0" />
       <feComposite
          id="feComposite8623"
          in2="result4"
-         in="result9"
          operator="in"
          result="result91" />
       <feBlend
@@ -1601,7 +1624,7 @@
   </metadata>
   <g
      style="display:inline"
-     transform="translate(-7.8506063,-28.520139)"
+     transform="translate(1975.5089,506.08598)"
      inkscape:label="cedccloud"
      id="layer2"
      inkscape:groupmode="layer">
@@ -1707,7 +1730,7 @@
     </g>
   </g>
   <g
-     transform="translate(-10.389983,-16.688545)"
+     transform="translate(1972.9695,517.91757)"
      style="display:inline"
      inkscape:label="nuvola2"
      id="layer7"
@@ -1719,7 +1742,7 @@
        d="m 383.82632,56.873242 c 58.34836,-31.79984 131.54644,-31.01216 186.71469,7.73117 42.03997,29.52426 63.0162,71.126618 69.14295,121.247848 0,0 0,48.98346 0,48.98346 0,0 38.27634,35.62164 38.27634,35.62164 24.38974,27.74465 27.19052,52.45517 26.78202,87.52252 -0.81697,68.70517 -57.21038,110.77432 -122.53165,110.86185 0,0 -417.19054,0 -417.19054,0 C 82.398757,468.72496 26.967911,410.98934 27.9016,328.80572 c 0.554379,-47.81647 25.352312,-91.0526 67.100505,-114.71287 24.652355,-13.9744 39.414285,-11.72799 48.137285,-19.05072 6.0684,-5.07629 9.33573,-16.54175 13.07019,-23.77694 5.10555,-9.89007 13.01157,-21.06375 20.74281,-29.05749 28.21146,-29.17417 71.15595,-40.05612 110.5994,-33.84203 0,0 37.9262,10.38601 37.9262,10.38601 8.40234,-25.264848 35.35915,-49.333528 58.34833,-61.878438 z" />
   </g>
   <g
-     transform="translate(-10.389983,-16.688545)"
+     transform="translate(1972.9695,517.91757)"
      style="display:inline"
      inkscape:label="nuvola3"
      id="layer9"
@@ -1740,7 +1763,8 @@
      style="display:inline"
      inkscape:label="altrenuvole"
      id="layer3"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     transform="translate(1983.3595,534.60611)">
     <path
        style="color:#000000;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:25;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4638-2);enable-background:accumulate"
        inkscape:connector-curvature="0"
@@ -1852,7 +1876,7 @@
        id="Selection-7-0" />
   </g>
   <g
-     transform="translate(-10.389983,-16.688545)"
+     transform="translate(1972.9695,517.91757)"
      style="display:inline"
      id="layer1"
      inkscape:groupmode="layer"
