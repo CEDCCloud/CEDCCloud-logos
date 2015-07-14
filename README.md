@@ -1,4 +1,4 @@
-cloud-areapd-logos
-==================
+CEDCCloud-logos
+===============
 
-Logos for Cloud Area PD
+Logos for the CEDC Cloud
